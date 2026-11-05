@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:short_grass"
+		},
+		"title": {
+			"translate": "advancement.neurallink.touch_grass.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.touch_grass.description"
+		},
+		"frame": "challenge",
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "touch_grass"
+			}
+		}
+	},
+	"parent": "neurallink:side_effects/agreement"
+}

@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"package": "net.neurallink.client.mixin",
+	"plugin": "net.neurallink.client.mixin.ClientMixinPlugin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CameraMixin",
+		"CreakingEntityRendererMixin",
+		"EntityInvisibilityMixin",
+		"GameRendererMixin",
+		"HeldItemRendererMixin",
+		"InGameHudMixin",
+		"IrisHandRendererMixin",
+		"KeyBindingMixin",
+		"KeyboardInputMixin",
+		"MinecraftClientInvoker",
+		"MinecraftClientMixin",
+		"SpectatorHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

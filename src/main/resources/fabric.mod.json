@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "neurallink",
+	"version": "${version}",
+	"name": "Neural Link",
+	"description": "Implant a microchip into any mob and take control of it with an AR/VR helmet.",
+	"authors": [ "Brusnika" ],
+	"license": [ "MIT", "CC-BY-NC-SA-4.0" ],
+	"icon": "assets/neurallink/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [ "net.neurallink.NeuralLink" ],
+		"client": [ "net.neurallink.client.NeuralLinkClient" ],
+		"modmenu": [ "net.neurallink.client.config.NeuralLinkModMenu" ]
+	},
+	"mixins": [
+		"neurallink.mixins.json",
+		{
+			"config": "neurallink.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "1.21.4",
+		"java": ">=21",
+		"fabric-api": ">=0.119.4"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}

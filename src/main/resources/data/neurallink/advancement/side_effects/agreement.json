@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "neurallink:microchip"
+		},
+		"title": {
+			"translate": "advancement.neurallink.agreement.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.agreement.description"
+		},
+		"frame": "task",
+		"hidden": false,
+		"background": "neurallink:textures/gui/advancements/visor.png",
+		"show_toast": true
+	},
+	"criteria": {
+		"done": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "neurallink:neural_helmet"
+			}
+		}
+	}
+}

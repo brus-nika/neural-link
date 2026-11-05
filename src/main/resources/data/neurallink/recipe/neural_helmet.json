@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [ "ISI", "THT", "GCG" ],
+	"key": {
+		"I": "minecraft:iron_ingot",
+		"S": "minecraft:calibrated_sculk_sensor",
+		"T": "minecraft:tinted_glass",
+		"H": "minecraft:diamond_helmet",
+		"G": "minecraft:gold_ingot",
+		"C": "neurallink:microchip"
+	},
+	"result": { "id": "neurallink:neural_helmet", "count": 1 }
+}

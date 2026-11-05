@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:porkchop"
+		},
+		"title": {
+			"translate": "advancement.neurallink.gertrude.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.gertrude.description"
+		},
+		"frame": "goal",
+		"hidden": true
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "gertrude"
+			}
+		}
+	},
+	"parent": "neurallink:side_effects/agreement"
+}

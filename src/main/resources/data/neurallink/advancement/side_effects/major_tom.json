@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:phantom_membrane"
+		},
+		"title": {
+			"translate": "advancement.neurallink.major_tom.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.major_tom.description"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "major_tom"
+			}
+		}
+	},
+	"parent": "neurallink:side_effects/agreement"
+}

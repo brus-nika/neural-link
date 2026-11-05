@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [ "RQR", "GEG", "RQR" ],
+	"key": {
+		"R": "minecraft:redstone",
+		"Q": "minecraft:quartz",
+		"G": "minecraft:gold_ingot",
+		"E": "minecraft:ender_pearl"
+	},
+	"result": { "id": "neurallink:microchip", "count": 1 }
+}

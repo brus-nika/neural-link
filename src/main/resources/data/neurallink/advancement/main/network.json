@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:redstone"
+		},
+		"title": {
+			"translate": "advancement.neurallink.network.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.network.description"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "network"
+			}
+		}
+	},
+	"parent": "neurallink:main/connected"
+}

@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:fire_charge"
+		},
+		"title": {
+			"translate": "advancement.neurallink.return_address.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.return_address.description"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "return_address"
+			}
+		}
+	},
+	"parent": "neurallink:main/connected"
+}

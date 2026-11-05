@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:axolotl_bucket"
+		},
+		"title": {
+			"translate": "advancement.neurallink.i_see_you.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.i_see_you.description"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "i_see_you"
+			}
+		}
+	},
+	"parent": "neurallink:side_effects/agreement"
+}

@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:has_component",
+		"component": "neurallink:chip_binding",
+		"on_true": { "type": "minecraft:model", "model": "neurallink:item/microchip_bound" },
+		"on_false": { "type": "minecraft:model", "model": "neurallink:item/microchip" }
+	}
+}

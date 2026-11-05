@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:nether_star"
+		},
+		"title": {
+			"translate": "advancement.neurallink.overlord.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.overlord.description"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "overlord"
+			}
+		}
+	},
+	"parent": "neurallink:main/connected"
+}

@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shulker_shell"
+		},
+		"title": {
+			"translate": "advancement.neurallink.ghost_shell.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.ghost_shell.description"
+		},
+		"frame": "task",
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "ghost_shell"
+			}
+		}
+	},
+	"parent": "neurallink:side_effects/agreement"
+}

@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:rabbit_foot"
+		},
+		"title": {
+			"translate": "advancement.neurallink.white_rabbit.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.white_rabbit.description"
+		},
+		"frame": "task",
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "white_rabbit"
+			}
+		}
+	},
+	"parent": "neurallink:side_effects/agreement"
+}

@@ -1,0 +1,15 @@
+Neural Link assets
+Copyright (c) 2026 Brusnika
+
+The assets of Neural Link are licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0):
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The assets are everything in src/main/resources/assets/ (assets/neurallink/ in the
+mod jar): textures, models, sounds, language files and the icon.
+
+Everything else, including the code, is licensed under the MIT License, see the
+LICENSE file.
+
+In addition, you may show the mod in videos and streams, monetized or not, and
+include it in modpacks, without asking.

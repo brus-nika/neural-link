@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:white_wool"
+		},
+		"title": {
+			"translate": "advancement.neurallink.electric_sheep.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.electric_sheep.description"
+		},
+		"frame": "task",
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "electric_sheep"
+			}
+		}
+	},
+	"parent": "neurallink:side_effects/agreement"
+}

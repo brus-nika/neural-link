@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:egg"
+		},
+		"title": {
+			"translate": "advancement.neurallink.chicken_jockey.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.chicken_jockey.description"
+		},
+		"frame": "goal",
+		"hidden": true
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "chicken_jockey"
+			}
+		}
+	},
+	"parent": "neurallink:side_effects/agreement"
+}

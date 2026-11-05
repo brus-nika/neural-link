@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "neurallink:neural_helmet"
+		},
+		"title": {
+			"translate": "advancement.neurallink.connected.title"
+		},
+		"description": {
+			"translate": "advancement.neurallink.connected.description"
+		},
+		"frame": "task",
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "neurallink:event",
+			"conditions": {
+				"event": "connected"
+			}
+		}
+	},
+	"parent": "neurallink:main/first_circuit"
+}

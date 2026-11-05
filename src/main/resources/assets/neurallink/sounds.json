@@ -1,0 +1,116 @@
+{
+	"menu_open": {
+		"subtitle": "subtitles.neurallink.menu_open",
+		"sounds": [
+			"neurallink:menu_open"
+		]
+	},
+	"click": {
+		"subtitle": "subtitles.neurallink.click",
+		"sounds": [
+			"neurallink:click"
+		]
+	},
+	"pair": {
+		"subtitle": "subtitles.neurallink.pair",
+		"sounds": [
+			"neurallink:pair"
+		]
+	},
+	"insert": {
+		"subtitle": "subtitles.neurallink.insert",
+		"sounds": [
+			"neurallink:insert"
+		]
+	},
+	"extract": {
+		"subtitle": "subtitles.neurallink.extract",
+		"sounds": [
+			"neurallink:extract"
+		]
+	},
+	"refuse": {
+		"subtitle": "subtitles.neurallink.refuse",
+		"sounds": [
+			"neurallink:refuse"
+		]
+	},
+	"connect": {
+		"subtitle": "subtitles.neurallink.connect",
+		"sounds": [
+			"neurallink:connect"
+		]
+	},
+	"disconnect": {
+		"subtitle": "subtitles.neurallink.disconnect",
+		"sounds": [
+			"neurallink:disconnect"
+		]
+	},
+	"lost": {
+		"subtitle": "subtitles.neurallink.lost",
+		"sounds": [
+			"neurallink:lost"
+		]
+	},
+	"noise": {
+		"subtitle": "subtitles.neurallink.noise",
+		"sounds": [
+			"neurallink:noise"
+		]
+	},
+	"body_alarm": {
+		"subtitle": "subtitles.neurallink.body_alarm",
+		"sounds": [
+			"neurallink:body_alarm"
+		]
+	},
+	"switch": {
+		"subtitle": "subtitles.neurallink.switch",
+		"sounds": [
+			"neurallink:switch"
+		]
+	},
+	"ability_ready": {
+		"subtitle": "subtitles.neurallink.ability_ready",
+		"sounds": [
+			"neurallink:ability_ready"
+		]
+	},
+	"wheel_open": {
+		"subtitle": "subtitles.neurallink.wheel_open",
+		"sounds": [
+			"neurallink:wheel_open"
+		]
+	},
+	"wheel_tick": {
+		"subtitle": "subtitles.neurallink.wheel_tick",
+		"sounds": [
+			"neurallink:wheel_tick"
+		]
+	},
+	"wheel_select": {
+		"subtitle": "subtitles.neurallink.wheel_select",
+		"sounds": [
+			"neurallink:wheel_select"
+		]
+	},
+	"wall_bump": {
+		"subtitle": "subtitles.neurallink.wall_bump",
+		"sounds": [
+			"neurallink:wall_bump"
+		]
+	},
+	"visor_boot": {
+		"subtitle": "subtitles.neurallink.visor_boot",
+		"sounds": [
+			"neurallink:visor_boot"
+		]
+	},
+	"signal_lost": {
+		"subtitle": "subtitles.neurallink.signal_lost",
+		"sounds": [
+			"neurallink:signal_lost"
+		]
+	}
+}
