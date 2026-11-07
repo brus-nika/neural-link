@@ -4,6 +4,8 @@ A Fabric mod for Minecraft. Implant a mob, put on the visor and control it from 
 
 The mob stays itself: a ghast floats slowly and spits fireballs, a fish chokes on land, an iron golem sinks, a slime can only jump.
 
+Download it on [Modrinth](https://modrinth.com/project/neural-link).
+
 ## Features
 
 - Any mob, with up to three abilities and its own way of moving. Bosses too, once they're turned on in the settings.
@@ -18,7 +20,7 @@ The mob stays itself: a ghast floats slowly and spits fireballs, a fish chokes o
 - Install on both client and server
 - Optional: Mod Menu for the settings screen, Cloth Config for a second settings window
 
-Supported Minecraft versions are listed on Modrinth. The version this code builds for is set in `gradle.properties`.
+Supported Minecraft versions are listed on [Modrinth](https://modrinth.com/project/neural-link). The version this code builds for is set in `gradle.properties`.
 
 ## Building
 
